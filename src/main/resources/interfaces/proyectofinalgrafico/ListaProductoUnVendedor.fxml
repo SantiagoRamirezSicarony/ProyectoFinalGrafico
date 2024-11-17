@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaces.proyectofinalgrafico.ControllerListaProductoUnVendedor">
+   <children>
+      <TableView fx:id="tableViewListaUnProducto" layoutX="49.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #c4dafa;">
+        <columns>
+          <TableColumn fx:id="tableColumnNombre" prefWidth="101.0" text="Nombre" />
+          <TableColumn fx:id="tableColumnCodigo" prefWidth="98.0" text="Codigo" />
+        </columns>
+      </TableView>
+      <AnchorPane fx:id="anchorPaneProducto" layoutX="275.0" layoutY="48.0" prefHeight="307.0" prefWidth="299.0" style="-fx-background-color: #c4dafa;">
+         <children>
+            <TextField fx:id="textFieldUnidadesDeCompra" layoutX="150.0" layoutY="272.0" prefHeight="28.0" prefWidth="52.0" />
+            <Label fx:id="labelUnidadesDeCompra" layoutX="14.0" layoutY="276.0" text="Unidades a comprar">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Button fx:id="buttonComprar" layoutX="213.0" layoutY="273.0" mnemonicParsing="false" style="-fx-background-color: #005187;" text="Comprar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Label fx:id="labelNombre" layoutX="33.0" layoutY="43.0" text="Nombre">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelPrecio" layoutX="33.0" layoutY="133.0" text="Precio">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelCategoria" layoutX="33.0" layoutY="105.0" text="Categoria">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelCodigo" layoutX="33.0" layoutY="74.0" text="Codigo">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelDescripcion" layoutX="33.0" layoutY="168.0" text="Descripcion">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelEstado" layoutX="33.0" layoutY="204.0" text="Estado">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelValorNombre" layoutX="190.0" layoutY="43.0" text="x/x/x">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelValorCodigo" layoutX="194.0" layoutY="74.0" text="x/x/x">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelValorCategoria" layoutX="194.0" layoutY="105.0" text="x/x/x">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelValorPrecio" layoutX="194.0" layoutY="133.0" text="x/x/x">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelValorDescripcion" layoutX="194.0" layoutY="168.0" text="x/x/x">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelValorEstado" layoutX="194.0" layoutY="204.0" text="x/x/x">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

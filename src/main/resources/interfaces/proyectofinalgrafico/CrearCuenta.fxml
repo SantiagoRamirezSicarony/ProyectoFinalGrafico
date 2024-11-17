@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaces.proyectofinalgrafico.Controladores.ControladoreSecundarios.ControllerCrearCuenta">
+   <children>
+      <AnchorPane fx:id="anchorPaneDatosCrearCuenta" layoutX="127.0" layoutY="9.0" prefHeight="345.0" prefWidth="343.0" style="-fx-background-color: #c4dafa;">
+         <children>
+            <Label fx:id="labelNombre" layoutX="24.0" layoutY="-5.0" prefHeight="38.0" prefWidth="73.0" text="Nombre">
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelCedula" layoutX="24.0" layoutY="126.0" prefHeight="38.0" prefWidth="73.0" text="Cedula">
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelCorreo" layoutX="24.0" layoutY="189.0" prefHeight="38.0" prefWidth="73.0" text="Correo">
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelContrasena" layoutX="24.0" layoutY="252.0" prefHeight="38.0" prefWidth="98.0" text=" Contraseña">
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textFieldNombre" layoutX="23.0" layoutY="33.0" prefHeight="25.0" prefWidth="294.0" style="-fx-background-color: #84b6f4;" />
+            <TextField fx:id="textFieldCedula" layoutX="23.0" layoutY="164.0" prefHeight="25.0" prefWidth="294.0" style="-fx-background-color: #84b6f4;" />
+            <TextField fx:id="textFieldCorreo" layoutX="23.0" layoutY="227.0" prefHeight="25.0" prefWidth="294.0" style="-fx-background-color: #84b6f4;" />
+            <TextField fx:id="textFieldContrasena" layoutX="23.0" layoutY="290.0" prefHeight="25.0" prefWidth="294.0" style="-fx-background-color: #84b6f4;" />
+            <TextField fx:id="textFieldApellido" layoutX="23.0" layoutY="101.0" prefHeight="25.0" prefWidth="294.0" style="-fx-background-color: #84b6f4;" />
+            <Label fx:id="labelApellido" layoutX="24.0" layoutY="63.0" prefHeight="38.0" prefWidth="73.0" text="Apellido">
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="buttonCrearCuenta" layoutX="245.0" layoutY="352.0" mnemonicParsing="false" style="-fx-background-color: #005187;" text="Crear cuenta" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
