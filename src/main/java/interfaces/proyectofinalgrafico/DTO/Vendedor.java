@@ -1,12 +1,8 @@
-package interfaces.proyectofinalgrafico.DOT;
+package interfaces.proyectofinalgrafico.DTO;
 
 
 
 
-
-import interfaces.proyectofinalgrafico.Excepciones.MaximoContactosException;
-import interfaces.proyectofinalgrafico.Excepciones.ProductoDuplicadoException;
-import interfaces.proyectofinalgrafico.Excepciones.VendedorNoEncontradoException;
 
 import java.io.Serializable;
 import java.util.ArrayList;

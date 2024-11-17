@@ -1,8 +1,8 @@
 package interfaces.proyectofinalgrafico.Services;
 
 
-import interfaces.proyectofinalgrafico.DOT.EstadisticaProducto;
-import interfaces.proyectofinalgrafico.DOT.EstadisticaVendedor;
+import interfaces.proyectofinalgrafico.DTO.EstadisticaProducto;
+import interfaces.proyectofinalgrafico.DTO.EstadisticaVendedor;
 
 public interface EstadisticasService {
     EstadisticaProducto generarEstadisticaProducto(double calificacionProducto, int meGustas);

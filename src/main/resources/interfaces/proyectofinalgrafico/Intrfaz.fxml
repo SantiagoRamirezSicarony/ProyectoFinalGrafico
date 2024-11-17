@@ -40,7 +40,7 @@
                   <PasswordField fx:id="campoTextoContraseña" layoutX="60.0" layoutY="117.0" style="-fx-background-color: #c4dafa;" />
                   <HBox layoutX="37.0" layoutY="175.0" prefHeight="44.0" prefWidth="77.0">
                      <children>
-                        <Button fx:id="botonLogin" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: #005187;" text="Login" textAlignment="CENTER" textFill="WHITE">
+                        <Button fx:id="botonLogin" contentDisplay="CENTER" mnemonicParsing="false" onAction="#Ingresar" prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: #005187;" text="Login" textAlignment="CENTER" textFill="WHITE">
                            <font>
                               <Font name="Arial Black" size="14.0" />
                            </font>
@@ -49,7 +49,7 @@
                   </HBox>
                   <HBox layoutX="143.0" layoutY="175.0" prefHeight="44.0" prefWidth="119.0">
                      <children>
-                        <Button fx:id="botonRegistrarse" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="32.0" prefWidth="106.0" style="-fx-background-color: #005187;" text="Registrase" textAlignment="CENTER" textFill="WHITE">
+                        <Button fx:id="botonRegistrarse" contentDisplay="CENTER" mnemonicParsing="false" onAction="#registrarse" prefHeight="32.0" prefWidth="106.0" style="-fx-background-color: #005187;" text="Registrase" textAlignment="CENTER" textFill="WHITE">
                            <font>
                               <Font name="Arial Black" size="14.0" />
                            </font>

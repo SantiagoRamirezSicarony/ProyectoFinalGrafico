@@ -1,4 +1,4 @@
-package interfaces.proyectofinalgrafico.DOT;
+package interfaces.proyectofinalgrafico.DTO;
 
 
 import java.io.Serializable;

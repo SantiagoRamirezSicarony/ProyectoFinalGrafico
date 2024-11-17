@@ -1,4 +1,4 @@
-package interfaces.proyectofinalgrafico.DOT;
+package interfaces.proyectofinalgrafico.DTO;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -61,40 +61,6 @@ public class Comentario implements Serializable {
 
     }
 
-    // Builder pattern
-    public static class Builder {
-        private String mensaje;
-        private Date fecha;
-        private Persona autor;
-        private Producto producto;
 
-        public Builder() {
-        }
-
-        public Builder setMensaje(String mensaje) {
-            this.mensaje = mensaje;
-            return this;
-        }
-
-        public Builder setFecha(Date fecha) {
-            this.fecha = fecha;
-            return this;
-        }
-
-        public Builder setAutor(Persona autor) {
-            this.autor = autor;
-            return this;
-        }
-
-        public Builder setProducto(Producto producto) {
-            this.producto = producto;
-            return this;
-        }
-
-
-        public Comentario build() {
-            return new Comentario(mensaje, fecha, autor, producto);
-        }
-    }
 }
 

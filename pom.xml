@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                interfaces.proyectofinalgrafico/interfaces.proyectofinalgrafico.Controladores.ControladoreSecundarios.HelloApplication
+                                interfaces.proyectofinalgrafico/interfaces.proyectofinalgrafico.Main
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

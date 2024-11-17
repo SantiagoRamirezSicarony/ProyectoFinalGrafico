@@ -1,4 +1,4 @@
-package interfaces.proyectofinalgrafico.DOT;
+package interfaces.proyectofinalgrafico.DTO;
 
 
 
@@ -11,7 +11,13 @@ public class EstadisticaVendedor implements Serializable {
     private int productosPublicados;
     private int mensajesEnviados;
     public EstadisticaVendedor() {}
-    
+
+    public EstadisticaVendedor(int mensajesEnviados, int productosPublicados, int productosVendidos) {
+        this.mensajesEnviados = mensajesEnviados;
+        this.productosPublicados = productosPublicados;
+        this.productosVendidos = productosVendidos;
+    }
+
     public static long getSerialversionuid() {
         return serialVersionUID;
     }

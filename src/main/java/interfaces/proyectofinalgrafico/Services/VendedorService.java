@@ -2,9 +2,9 @@ package interfaces.proyectofinalgrafico.Services;
 
 
 
-import interfaces.proyectofinalgrafico.DOT.Persona;
-import interfaces.proyectofinalgrafico.DOT.Producto;
-import interfaces.proyectofinalgrafico.DOT.Vendedor;
+import interfaces.proyectofinalgrafico.DTO.Persona;
+import interfaces.proyectofinalgrafico.DTO.Producto;
+import interfaces.proyectofinalgrafico.DTO.Vendedor;
 import interfaces.proyectofinalgrafico.Excepciones.ArgumentosFaltantesException;
 import interfaces.proyectofinalgrafico.Excepciones.ContactoEncontradoException;
 import interfaces.proyectofinalgrafico.Excepciones.MaximoContactosException;

@@ -62,7 +62,7 @@ public class Cliente implements Runnable {
         }
     }
 
-    public String recibirMensaje() {
+    public Object recibirMensaje() {
         try {
             return mensajesRecibidos.take(); // Toma el mensaje desde la cola
         } catch (InterruptedException e) {

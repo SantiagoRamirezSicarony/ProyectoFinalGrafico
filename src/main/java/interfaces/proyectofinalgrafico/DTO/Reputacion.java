@@ -1,4 +1,4 @@
-package interfaces.proyectofinalgrafico.DOT;
+package interfaces.proyectofinalgrafico.DTO;
 
 public class Reputacion {
     private int calificacion;

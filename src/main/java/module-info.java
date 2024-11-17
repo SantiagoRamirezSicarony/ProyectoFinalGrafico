@@ -9,4 +9,9 @@ module interfaces.proyectofinalgrafico {
     opens interfaces.proyectofinalgrafico.Controladores to javafx.fxml;
     exports interfaces.proyectofinalgrafico.Controladores.ControladoreSecundarios;
     opens interfaces.proyectofinalgrafico.Controladores.ControladoreSecundarios to javafx.fxml;
+    exports interfaces.proyectofinalgrafico.DTO;
+    exports interfaces.proyectofinalgrafico.App;
+    opens interfaces.proyectofinalgrafico.App to javafx.fxml;
+    exports interfaces.proyectofinalgrafico;
+
 }

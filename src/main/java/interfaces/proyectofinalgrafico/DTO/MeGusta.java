@@ -1,4 +1,4 @@
-package interfaces.proyectofinalgrafico.DOT;
+package interfaces.proyectofinalgrafico.DTO;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -17,30 +17,28 @@ public class MeGusta implements Serializable {
         this.producto = producto;
     }
 
-    // Builder
-    public static class MeGustaBuilder {
-        private Date fecha;
-        private Vendedor autor;
-        private Producto producto;
+    public Producto getProducto() {
+        return producto;
+    }
 
-        public MeGustaBuilder setFecha(Date fecha) {
-            this.fecha = fecha;
-            return this;
-        }
+    public void setProducto(Producto producto) {
+        this.producto = producto;
+    }
 
-        public MeGustaBuilder setAutor(Vendedor autor) {
-            this.autor = autor;
-            return this;
-        }
+    public Vendedor getAutor() {
+        return autor;
+    }
 
-        public MeGustaBuilder setProducto(Producto producto) {
-            this.producto = producto;
-            return this;
-        }
+    public void setAutor(Vendedor autor) {
+        this.autor = autor;
+    }
 
-        public MeGusta build() {
-            return new MeGusta(fecha, autor, producto);
-        }
+    public Date getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(Date fecha) {
+        this.fecha = fecha;
     }
 
     @Override

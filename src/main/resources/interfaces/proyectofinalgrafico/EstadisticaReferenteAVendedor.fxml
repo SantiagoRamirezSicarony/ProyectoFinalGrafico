@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaces.proyectofinalgrafico.Controladores.ControladoreSecundarios.ControllerEstadisticaReferenteAVendedor">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaces.proyectofinalgrafico.Controladores.ControladoreSecundarios.ControllerEstadisticaReferenteAVendedor">
    <children>
       <TabPane fx:id="tabPanel" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
         <tabs>
@@ -124,7 +124,7 @@
                                     <Label fx:id="LbCorreo" text="Correo electronico" GridPane.rowIndex="4" />
                                     <Label fx:id="LbConNombre" text="Label" GridPane.columnIndex="1" />
                                     <Label fx:id="LbConIdentificacion" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                                    <Label text="Telefono:" GridPane.rowIndex="2" />
+                                    <Label text="Direccion" GridPane.rowIndex="2" />
                                     <Label fx:id="LbTelefono" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                                     <Label fx:id="LbPassword" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                                     <Label fx:id="LbEmail" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
@@ -153,7 +153,7 @@
                               <TableColumn fx:id="tableColumnCorreoChat" prefWidth="124.0" text="Correo" />
                            </columns>
                         </TableView>
-                        <Button fx:id="buttomIrAChat" layoutX="472.0" layoutY="111.0" mnemonicParsing="false" style="-fx-background-color: #005187;" text="Ir al chat" textFill="WHITE">
+                        <Button fx:id="buttomIrAChat" layoutX="472.0" layoutY="111.0" mnemonicParsing="false" onAction="#irAChat" style="-fx-background-color: #005187;" text="Ir al chat" textFill="WHITE">
                            <font>
                               <Font name="System Bold" size="14.0" />
                            </font></Button>
@@ -170,11 +170,11 @@
                               <TableColumn fx:id="tableColumnCorreoSolicitudes" prefWidth="124.0" text="Correo" />
                            </columns>
                         </TableView>
-                        <Button fx:id="buttonAgregarSolicitudes" layoutX="457.0" layoutY="128.0" mnemonicParsing="false" style="-fx-background-color: #005187;" text="Agreagr" textFill="WHITE">
+                        <Button fx:id="buttonAgregarSolicitudes" layoutX="457.0" layoutY="128.0" mnemonicParsing="false" onAction="#agregar" style="-fx-background-color: #005187;" text="Agreagr" textFill="WHITE">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font></Button>
-                        <Button fx:id="buttonEliminarSolicitudes" layoutX="51.0" layoutY="128.0" mnemonicParsing="false" style="-fx-background-color: #005187;" text="Eliminar" textFill="WHITE">
+                        <Button fx:id="buttonEliminarSolicitudes" layoutX="51.0" layoutY="128.0" mnemonicParsing="false" onAction="#eliminarProducto" style="-fx-background-color: #005187;" text="Eliminar" textFill="WHITE">
                            <font>
                               <Font name="System Bold" size="14.0" />
                            </font></Button>
